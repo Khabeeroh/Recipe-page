@@ -131,7 +131,7 @@ td {
   font-family: "Outfit", sans-serif;
 }
 
-@media screen and (max-width: 1000px) and (min-width: 701px) {
+@media screen and (max-width: 1000px){
   .parent-div {
     width: 100%;
     padding-top: 0px;
@@ -159,18 +159,5 @@ td {
   .name,
   .weight {
     font-size: 18px;
-  }
-}
-@media screen and (max-width: 700px) {
-  .parent-div {
-    width: 100%;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    background-color: hsl(30, 54%, 90%);
-  }
-  .sub-div {
-    width: 100%;
-    margin: 0;
-    padding: 30px;
   }
 }
