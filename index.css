@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* font-family: "Young Serif", serif;
+    font-family:  "Outfit", sans-serif; */
+}
+.parent-div {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  background-color: hsl(30, 54%, 90%);
+}
+.sub-div {
+  width: 50%;
+  height: auto;
+  margin: auto;
+  padding: 30px;
+  border-radius: 20px;
+  background-color: hsl(0, 0%, 100%);
+}
+.image-div img {
+  width: 100%;
+  height: 70%;
+  border-radius: 15px;
+}
+.text-div h1 {
+  font-family: "Young Serif", serif;
+  font-weight: 500;
+  padding: 20px 0px 15px 0px;
+  color: hsl(24, 5%, 18%);
+}
+.text-div p {
+  font-size: 12px;
+  color: hsl(30, 10%, 34%);
+  font-family: "Outfit", sans-serif;
+  padding-bottom: 20px;
+}
+.prepare {
+  background-color: hsl(330, 100%, 98%);
+  padding: 25px;
+  line-height: 5vh;
+  border-radius: 15px;
+  font-family: "Outfit", sans-serif;
+}
+.prepare h3 {
+  color: hsl(332, 51%, 32%);
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+.prepare ul{
+    padding-left: 20px;
+    color:  hsl(30, 10%, 34%);
+    font-size: 13px;
+}
+.prepare ul span{
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+    color: hsl(24, 5%, 18%);
+    padding-left: 20px;
+}
+.ingredient h3, .instruction h3{
+    padding-top: 20px;
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.ingredient ul, .instruction ol{
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.ingredient li, .instruction li{
+    line-height: 4vh;
+    padding-left: 20px;
+    font-family: "Outfit", sans-serif;
+    color: hsl(30, 10%, 34%);
+    font-size: 13px;
+    font-weight: 400;
+}
+.instruction ol{
+     color: hsl(14, 45%, 36%);
+}
+.instruction ol span{
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+     color: hsl(30, 10%, 34%);
+}
+.instruction li{
+    font-size: 12px;
+}
+.Nutrition h3{
+    padding-top: 20px;
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+    font-weight: 400;   
+    padding-bottom: 10px;
+}
+.Nutrition p{
+    color: hsl(30, 10%, 34%);
+    font-size: 13px;
+     font-family: "Outfit", sans-serif;
+    padding-bottom: 10px;
+}
+table{     
+    margin: 10px 20px 0px 20px;
+     width: 95%;
+     border-collapse: collapse;
+     border-left: none;
+     border-right: none;
+     border-top: none;
+}
+td{
+  padding: 10px;
+}
+.name{
+    color: hsl(30, 10%, 34%);
+    font-size: 13px;
+     font-family: "Outfit", sans-serif;
+}
+.weight{
+  color: hsl(14, 45%, 36%); 
+   font-size: 13px;
+   font-weight: 600;
+   font-family: "Outfit", sans-serif;
+}
+
+@media screen and (max-width: 700px) {
+.parent-div {
+  width: 100%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: hsl(30, 54%, 90%);
+}
+.sub-div {
+  width: 100%;
+  margin: 0;
+  padding: 30px;
+}
+}
