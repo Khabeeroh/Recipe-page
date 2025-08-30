@@ -51,93 +51,126 @@
   font-weight: 500;
   padding-bottom: 10px;
 }
-.prepare ul{
-    padding-left: 20px;
-    color:  hsl(30, 10%, 34%);
-    font-size: 13px;
+.prepare ul {
+  padding-left: 20px;
+  color: hsl(30, 10%, 34%);
+  font-size: 13px;
 }
-.prepare ul span{
-    font-family: "Outfit", sans-serif;
-    font-weight: 500;
-    color: hsl(24, 5%, 18%);
-    padding-left: 20px;
+.prepare ul span {
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
+  color: hsl(24, 5%, 18%);
+  padding-left: 20px;
 }
-.ingredient h3, .instruction h3{
-    padding-top: 20px;
-    color: hsl(14, 45%, 36%);
-    font-family: "Young Serif", serif;
-    font-weight: 400;
-    padding-bottom: 20px;
+.ingredient h3,
+.instruction h3 {
+  padding-top: 20px;
+  color: hsl(14, 45%, 36%);
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  padding-bottom: 20px;
 }
-.ingredient ul, .instruction ol{
-    padding-left: 20px;
-    padding-bottom: 20px;
+.ingredient ul,
+.instruction ol {
+  padding-left: 20px;
+  padding-bottom: 20px;
 }
-.ingredient li, .instruction li{
-    line-height: 4vh;
-    padding-left: 20px;
-    font-family: "Outfit", sans-serif;
-    color: hsl(30, 10%, 34%);
-    font-size: 13px;
-    font-weight: 400;
+.ingredient li,
+.instruction li {
+  line-height: 4vh;
+  padding-left: 20px;
+  font-family: "Outfit", sans-serif;
+  color: hsl(30, 10%, 34%);
+  font-size: 13px;
+  font-weight: 400;
 }
-.instruction ol{
-     color: hsl(14, 45%, 36%);
+.instruction ol {
+  color: hsl(14, 45%, 36%);
 }
-.instruction ol span{
-    font-family: "Outfit", sans-serif;
-    font-weight: 700;
-     color: hsl(30, 10%, 34%);
+.instruction ol span {
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+  color: hsl(30, 10%, 34%);
 }
-.instruction li{
-    font-size: 12px;
+.instruction li {
+  font-size: 12px;
 }
-.Nutrition h3{
-    padding-top: 20px;
-    color: hsl(14, 45%, 36%);
-    font-family: "Young Serif", serif;
-    font-weight: 400;   
-    padding-bottom: 10px;
+.Nutrition h3 {
+  padding-top: 20px;
+  color: hsl(14, 45%, 36%);
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  padding-bottom: 10px;
 }
-.Nutrition p{
-    color: hsl(30, 10%, 34%);
-    font-size: 13px;
-     font-family: "Outfit", sans-serif;
-    padding-bottom: 10px;
+.Nutrition p {
+  color: hsl(30, 10%, 34%);
+  font-size: 13px;
+  font-family: "Outfit", sans-serif;
+  padding-bottom: 10px;
 }
-table{     
-    margin: 10px 20px 0px 20px;
-     width: 95%;
-     border-collapse: collapse;
-     border-left: none;
-     border-right: none;
-     border-top: none;
+table {
+  margin: 10px 20px 0px 20px;
+  width: 95%;
+  border-collapse: collapse;
+  border-left: none;
+  border-right: none;
+  border-top: none;
 }
-td{
+td {
   padding: 10px;
 }
-.name{
-    color: hsl(30, 10%, 34%);
-    font-size: 13px;
-     font-family: "Outfit", sans-serif;
+.name {
+  color: hsl(30, 10%, 34%);
+  font-size: 13px;
+  font-family: "Outfit", sans-serif;
 }
-.weight{
-  color: hsl(14, 45%, 36%); 
-   font-size: 13px;
-   font-weight: 600;
-   font-family: "Outfit", sans-serif;
+.weight {
+  color: hsl(14, 45%, 36%);
+  font-size: 13px;
+  font-weight: 600;
+  font-family: "Outfit", sans-serif;
 }
 
-@media screen and (max-width: 1000px) {
-.parent-div {
-  width: 100%;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  background-color: hsl(30, 54%, 90%);
+@media screen and (max-width: 1000px) and (min-width: 701px) {
+  .parent-div {
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: hsl(30, 54%, 90%);
+  }
+  .sub-div {
+    width: 100%;
+    margin: 0;
+    padding: 30px;
+  }
+  .text-div h1,
+  .prepare h3,
+  .ingredient h3,
+  .instruction h3,
+  .Nutrition h3 {
+    font-size: 30px;
+  }
+  .text-div p,
+  .prepare ul,
+  .ingredient li,
+  .instruction li,
+  .instruction li,
+  .Nutrition p,
+  .name,
+  .weight {
+    font-size: 18px;
+  }
 }
-.sub-div {
-  width: 100%;
-  margin: 0;
-  padding: 30px;
-}
+@media screen and (max-width: 700px) {
+  .parent-div {
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: hsl(30, 54%, 90%);
+  }
+  .sub-div {
+    width: 100%;
+    margin: 0;
+    padding: 30px;
+  }
 }
