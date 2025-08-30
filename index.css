@@ -128,7 +128,7 @@ td{
    font-family: "Outfit", sans-serif;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1000px) {
 .parent-div {
   width: 100%;
   padding-top: 0px;
